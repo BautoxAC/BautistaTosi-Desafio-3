@@ -1,7 +1,4 @@
-
-
 import fs from "fs"
-import { stringify } from "querystring"
 export class ProductManager {
     constructor(path) {
         if (!fs.existsSync(path)) {
